@@ -5,8 +5,9 @@ def my_collect(array)
   collect = []
   #establishing the limit
   while i < array.length
-  #shoveling 
+  #shoveling to yield the correct element from a given collection
     collect << yield(array[i])
+    
     i+=1
   end
   collect
